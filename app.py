@@ -25,8 +25,8 @@ def main():
     accesstoken = 'gHY3yNiqSbwAAAAAAAAAATgGQ4zMOEaOb_2Psk88TrdFqgfriEunlboVJn5xmVmg'
     transferData = TransferData(accesstoken)
 
-    file_from = input("Enter the file path to transfer : -")
-    file_to = input("Enter the dropox path")
+    file_from = input("Enter the path:")
+    file_to = input("Enter the dropox path: ")
 
     transferData.upload_file(file_from, file_to)
 
